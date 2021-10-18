@@ -1,0 +1,47 @@
+.buy-modal-body{
+    padding: 10px 20px;
+    display: none;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    z-index: 5;
+    p{
+        margin: 0;
+    }
+    input[type=submit], input[type=button]{
+        display: block;
+        margin: 5px auto;
+        border: 0;
+        padding: 5px 10px;
+        color: #fff;
+        display: inline-block;
+    }
+    .buyCancel{
+        background-color: indianred;
+        float: right;
+    }
+}
+.buy-modal-body2{
+    padding: 10px 20px;
+    display: none;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    z-index: 5;
+    background-color: lightgreen;
+    p{
+        margin: 0;
+    }
+    input[type=submit], input[type=button]{
+        display: block;
+        margin: 5px auto;
+        border: 0;
+        padding: 5px 10px;
+        color: #fff;
+        display: inline-block;
+    }
+    .buyCancel{
+        background-color: indianred;
+        float: right;
+    }
+}

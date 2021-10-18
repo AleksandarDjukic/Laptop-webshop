@@ -1,0 +1,58 @@
+footer{
+    .news{
+        background-color: #2B4275;
+        width: 100%;
+        line-height: 30px;
+        padding-top: 8px;
+        text-align: center;
+        padding-bottom: 8px;
+        p{
+            color: #fff;
+            display: block;
+            margin-bottom: 0;
+            
+        }
+        input[type="email"]{
+            height: 32px;
+            display: inline;
+            padding-left: 5px;
+            border: 0;
+            outline: 0;
+        }
+        button{
+            display: inline;
+            padding: 0 10px;
+            height: 32px;
+            display: inline-block;
+            padding: 0 10px;
+            background-color: #556C9E;
+            border: 0;
+            outline: 0;
+            color: #C6D5EB;
+        }
+    }
+    .footer-body{
+        width: 100%;
+        padding-bottom: 15px;
+        background-color: $primary;
+        color: #fff;
+        padding-top: 30px;
+        hr{
+            width: 80%;
+            background-color: $primaryText;
+        }
+        ul li{
+            cursor: pointer;
+        }
+        ul li:hover{
+            padding-left: 10px;
+            transition: padding-left .5s;
+        }
+        img{
+            margin-top: 100px;
+            width: auto;
+            height: 40px;
+            display: inline;
+        }
+    }
+}

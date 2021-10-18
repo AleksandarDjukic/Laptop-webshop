@@ -1,0 +1,14 @@
+.update-top{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: 12px;
+    h3{
+        background-color: transparent;
+        height: 50px;
+        margin: 0;
+    }
+    .update-select, .delete-select{
+        height: 40px;
+    }
+}

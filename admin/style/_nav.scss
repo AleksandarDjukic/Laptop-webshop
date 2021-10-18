@@ -1,0 +1,63 @@
+.logo-nav{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-size: 28px;
+    width: 60px;
+    background-color: rgb(18, 45, 199);
+    color: #fff;
+    padding: 20px 0;
+    cursor: pointer;
+    top: 0;
+
+}
+nav{
+    background-color: rgb(18, 45, 199);
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+
+    
+    .fa-bars{
+        cursor: pointer;
+        color: #fff;
+    }
+    .controls{
+        text-align: center;
+        margin-top: 150px;
+
+        .add-label, .delete-label, .home-label, .edit-label, .analytics-label, .settings-label, .logout-label{
+            margin: 0;
+            display: none;
+            color: #fff;
+            transition: display 2s;
+        }
+        .analytics-label, .settings-label, .logout-label, .home-label{
+            font-size: 10px;
+        }
+        i{
+            color: #fff;
+            font-size: 24px;
+            display: block;
+            margin-top: 25px;
+            transition: font-size .6s;
+        }
+        
+    }
+}
+nav::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+    background-color: #2f307e;
+    transform: rotate(-45deg);
+    z-index: -1;
+    box-shadow: 0 0 0 50px #2f307e;
+}

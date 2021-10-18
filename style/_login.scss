@@ -1,0 +1,33 @@
+
+
+.reg-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px 40px;
+
+    p{
+        margin-bottom: 0;
+        color: #fff;
+    }
+    .form-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    input[type=text], input[type=email], input[type=password]{
+        padding-left: 6px;
+    }
+    input[type=submit]{
+        margin-bottom: 20px;
+    }
+    .login-link{
+        display: flex;
+        margin-top: 8px;
+        justify-content: center;
+    }
+}
+

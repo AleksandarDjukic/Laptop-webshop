@@ -1,0 +1,116 @@
+.theme-form{
+    margin-top: 60px;
+}
+.theme-preview{
+    width: 400px;
+    height: 475px;
+    position: relative;
+    
+    
+    .theme-top{
+        
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        left: 0;
+        top: 0;
+
+    }
+    .theme-nav{
+       
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        left: 0;
+        top: 10px;
+    }
+    .theme-h-button{
+        position: absolute;
+        
+        width: 20%;
+        height: 20px;
+        top: 70px;
+        left: 60%;
+    }
+    .text-preview{
+        text-align: center;
+    }
+    .offer{
+        position: absolute;
+        
+        width: 100%;
+        height: 40px;
+        top: 110px;
+        left: 0;
+    }
+    .filter-preview{
+        position: absolute;
+        background-color: transparent;
+        width: 25%;
+        height: 220px;
+        top: 160px;
+        border: 1px solid grey;
+        left: 0;
+    }
+    @mixin card {
+        position: absolute;
+        background-color: transparent;
+        width: 25%;
+        height: 100px;
+        border: 1px solid grey;
+        
+    }
+    .card-preview{
+        @include card();
+        left: 35%;
+        top: 160px;
+    }
+    .card-preview2{
+        @include card();
+        left: 70%;
+        top: 160px;
+    }
+    .card-preview3{
+        @include card();
+        left: 35%;
+        top: 280px;
+    }
+    .card-preview4{
+        @include card();
+        left: 70%;
+        top: 280px;
+    }
+    .price-preview{
+        position: absolute;
+        width: 30px;
+        height: 15px;
+        top: 20px;
+        left: 0;
+        
+    }
+    .m40{
+        margin-top: 40%;
+    }
+    .buy-preview{
+        position: absolute;
+        width: 40%;
+        height: 15px;
+        bottom: 0px;
+        left: 30%;
+        
+    }
+    .footer-top-preview{
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        height: 25px;
+    }
+    .footer-preview{
+        position: absolute;
+        top: 425px;
+        width: 100%;
+        height: 50px;
+        
+    }
+}
+

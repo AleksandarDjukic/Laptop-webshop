@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.opis{
+    height: 130px !important;
+}
+
+body{
+    background-color: rgb(47, 48, 126);
+    color: #fff;
+}
+form h2, form h3{
+    background-color: rgb(18, 45, 199);
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: fit-content;
+}
+.select-product-heading{
+    background-color: rgb(18, 45, 199);
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+label{
+    background-color: rgb(18, 45, 199);
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+@import 'nav';
+@import 'settings';
+@import 'update';
+@import 'home';
+@import 'analytics';

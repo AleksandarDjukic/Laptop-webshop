@@ -1,0 +1,340 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.opis {
+  height: 130px !important;
+}
+
+body {
+  background-color: #2f307e;
+  color: #fff;
+}
+
+form h2, form h3 {
+  background-color: #122dc7;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.select-product-heading {
+  background-color: #122dc7;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+label {
+  background-color: #122dc7;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+.logo-nav {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  font-size: 28px;
+  width: 60px;
+  background-color: #122dc7;
+  color: #fff;
+  padding: 20px 0;
+  cursor: pointer;
+  top: 0;
+}
+
+nav {
+  background-color: #122dc7;
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+nav .fa-bars {
+  cursor: pointer;
+  color: #fff;
+}
+
+nav .controls {
+  text-align: center;
+  margin-top: 150px;
+}
+
+nav .controls .add-label, nav .controls .delete-label, nav .controls .home-label, nav .controls .edit-label, nav .controls .analytics-label, nav .controls .settings-label, nav .controls .logout-label {
+  margin: 0;
+  display: none;
+  color: #fff;
+  -webkit-transition: display 2s;
+  transition: display 2s;
+}
+
+nav .controls .analytics-label, nav .controls .settings-label, nav .controls .logout-label, nav .controls .home-label {
+  font-size: 10px;
+}
+
+nav .controls i {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  margin-top: 25px;
+  -webkit-transition: font-size .6s;
+  transition: font-size .6s;
+}
+
+nav::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: -30px;
+  left: 40px;
+  background-color: #2f307e;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: -1;
+  -webkit-box-shadow: 0 0 0 50px #2f307e;
+          box-shadow: 0 0 0 50px #2f307e;
+}
+
+.theme-form {
+  margin-top: 60px;
+}
+
+.theme-preview {
+  width: 400px;
+  height: 475px;
+  position: relative;
+}
+
+.theme-preview .theme-top {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  left: 0;
+  top: 0;
+}
+
+.theme-preview .theme-nav {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  top: 10px;
+}
+
+.theme-preview .theme-h-button {
+  position: absolute;
+  width: 20%;
+  height: 20px;
+  top: 70px;
+  left: 60%;
+}
+
+.theme-preview .text-preview {
+  text-align: center;
+}
+
+.theme-preview .offer {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 110px;
+  left: 0;
+}
+
+.theme-preview .filter-preview {
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 220px;
+  top: 160px;
+  border: 1px solid grey;
+  left: 0;
+}
+
+.theme-preview .card-preview {
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 100px;
+  border: 1px solid grey;
+  left: 35%;
+  top: 160px;
+}
+
+.theme-preview .card-preview2 {
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 100px;
+  border: 1px solid grey;
+  left: 70%;
+  top: 160px;
+}
+
+.theme-preview .card-preview3 {
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 100px;
+  border: 1px solid grey;
+  left: 35%;
+  top: 280px;
+}
+
+.theme-preview .card-preview4 {
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 100px;
+  border: 1px solid grey;
+  left: 70%;
+  top: 280px;
+}
+
+.theme-preview .price-preview {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  top: 20px;
+  left: 0;
+}
+
+.theme-preview .m40 {
+  margin-top: 40%;
+}
+
+.theme-preview .buy-preview {
+  position: absolute;
+  width: 40%;
+  height: 15px;
+  bottom: 0px;
+  left: 30%;
+}
+
+.theme-preview .footer-top-preview {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height: 25px;
+}
+
+.theme-preview .footer-preview {
+  position: absolute;
+  top: 425px;
+  width: 100%;
+  height: 50px;
+}
+
+.update-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+.update-top h3 {
+  background-color: transparent;
+  height: 50px;
+  margin: 0;
+}
+
+.update-top .update-select, .update-top .delete-select {
+  height: 40px;
+}
+
+.home-heading {
+  margin-top: 50px;
+}
+
+.fa-check {
+  color: green;
+  padding-left: 20px !important;
+}
+
+.fa-times {
+  color: darkred;
+  padding-left: 20px !important;
+}
+
+.quan {
+  padding-left: 40px !important;
+}
+
+table {
+  color: #fff !important;
+}
+
+.last-purchase {
+  width: 350px;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.last-purchase img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.last-purchase .lp-card {
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.last-purchase .lp-desc {
+  display: block;
+}
+
+.last-purchase .heading {
+  text-align: center !important;
+}
+
+.earnings {
+  margin-top: 45px;
+}
+
+.best-selling {
+  width: 350px;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.best-selling img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.best-selling .lp-card {
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.best-selling .lp-desc {
+  display: block;
+}
+
+.best-selling .heading {
+  text-align: center !important;
+}
+/*# sourceMappingURL=style.css.map */

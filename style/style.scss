@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background-color: #b0b4cc;
+}
+a:hover{
+	text-decoration: none;
+}
+
+$primary : #556C9E; 
+$primaryText : #C6D5EB;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import "./filteri";
+@import "./responsive";
+@import "./navMenu";
+@import "./slider";
+@import "./body";
+@import "./footer";
+@import "./product";
+@import "./login";
+@import "./buy";
+@import "./cart";
+
